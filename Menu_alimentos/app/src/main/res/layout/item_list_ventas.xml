@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/barcolor2"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTotal01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="roll"
+        android:textAlignment="center"
+        android:textColor="@color/navcolor2"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textnombrem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-black"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="nombre"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textmesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-black"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="clave"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

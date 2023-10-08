@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo03"
+    tools:context=".Menu_opciones">
+
+    <TextView
+        android:id="@+id/titulomenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="start"
+        tools:ignore="HardcodedText"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titulonombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulomenu"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Nombre"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnregistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulonombre"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Registrar empleado"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnlistaempleados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnhistorialventas"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Lista de empleados"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnhistorialventas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnregistrar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Historial de ventas"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnlistaordenesmesero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlistaempleados"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Ordenes del mesero"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNotiordenmesero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlistaordenesmesero"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Notificaciones para ordenes"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnlistaordenescocinero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNotiordenmesero"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Lista ordenes del cocinero"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btncontrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlistaordenescocinero"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Cambiar contraseña"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnsalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btncontrasena"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F57C00"
+        android:text="Cerrar sesion"
+        tools:ignore="HardcodedText"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

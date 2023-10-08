@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="barcolor">#FF3800</color>
+    <color name="navcolor">#FF3800</color>
+    <color name="barcolor2">#2D3878</color>
+    <color name="navcolor2">#AF4243</color>
+    <color name="personalnav">#002042</color>
+    <color name="personalbar">#942CFD</color>
+    <color name="mi_color_texto_spinner">#FF0000</color>
+</resources>

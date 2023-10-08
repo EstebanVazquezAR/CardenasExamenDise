@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cafeteria</string>
+
+    <string-array name="opciones_roles">
+        <item>administradores</item>
+        <item>cocinero</item>
+        <item>mesero</item>
+    </string-array>
+
+</resources>
