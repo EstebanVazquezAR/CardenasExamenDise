@@ -9,4 +9,44 @@
     <color name="personalnav">#002042</color>
     <color name="personalbar">#942CFD</color>
     <color name="mi_color_texto_spinner">#FF0000</color>
+
+    <color name="_Negro">#FF000000</color>
+    <color name="_Blanco">#FFFFFFFF</color>
+
+    <color name="_Rojo">#FF0000</color>
+    <color name="_Cian">#00BCD4</color>
+    <color name="_Naranja">#FF5722</color>
+    <color name="_Verde">#19FF00</color>
+    <color name="_Nuevocolor">#A513F3</color>
+
+    <color name="_Color1">#278F7A</color>
+    <color name="_Color2">#AEFFEB35</color>
+    <color name="_Color3">#F37413</color>
+    <color name="_Color4">#13F38A</color>
+    <color name="_Color5">#13C6F3</color>
+    <color name="_Color6">#8E63DD</color>
+    <color name="_Color7">#F35120</color>
+    <color name="_Color8">#4CAF50</color>
+    <color name="_Color9">#FFAA00</color>
+    <color name="_Color10">#0088FF</color>
+    <color name="_Color11">#FF5500</color>
+    <color name="_Color12">#9933FF</color>
+    <color name="_Color13">#00BBFF</color>
+    <color name="_Color14">#00FF88</color>
+    <color name="_Color15">#FF7744</color>
+    <color name="_Color16">#44AAFF</color>
+    <color name="_Color17">#FFCC00</color>
+    <color name="_Color18">#0099FF</color>
+    <color name="_Color19">#FF3366</color>
+    <color name="_Color20">#55FF55</color>
+    <color name="_Color21">#FFDD99</color>
+    <color name="_Color22">#0088CC</color>
+    <color name="_Color23">#FF0033</color>
+    <color name="_Color24">#77DDFF</color>
+    <color name="_Color25">#FFDD55</color>
+    <color name="_Color26">#44BB77</color>
+    <color name="_Color27">#999999</color>
+    <color name="_Color28">#CCDDDD</color>
+
+
 </resources>
